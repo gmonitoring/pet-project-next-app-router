@@ -1,0 +1,36 @@
+.arrowContainer {
+  position: absolute;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+}
+
+.arrow {
+  transform: rotate(0deg);
+}
+
+.arrow-enter {
+  transform: rotate(0deg);
+}
+
+.arrow-enter-active {
+  transform: rotate(180deg);
+  transition: all 0.5s ease;
+}
+
+.arrow-enter-done {
+  transform: rotate(180deg);
+}
+
+.arrow-exit {
+  transform: rotate(180deg);
+}
+
+.arrow-exit-active {
+  transform: rotate(0deg);
+  transition: all 0.5s ease;
+}
+
+.arrow-exit-done {
+  transform: rotate(0deg);
+}

@@ -1,0 +1,5 @@
+export const catalogUrl = '/'
+export const sellUrl = '/sell/'
+export const favoritesUrl = '/favorites/'
+export const chatsUrl = '/chats/'
+export const profileUrl = '/profile/'
